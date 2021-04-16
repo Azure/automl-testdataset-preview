@@ -14,9 +14,10 @@ As the maintainer of this project, please make a few updates:
     is created (`workspaceblobstore`). This datastore is visible to all users with
     the same subscription. Do not use this feature if any of the information used for
     or created by the test run needs to remain private.
-- Local AutoML runs do not support test runs.
+- Local AutoML runs do not support test runs. To use this feature, please use remote runs.
 - ADB/Spark runs do not support test runs.
 - Pandas DataFrames are not supported as input test datasets.
+    Supported input test dataset types: [Dataset](https://docs.microsoft.com/en-us/python/api/azureml-core/azureml.core.dataset.dataset?view=azure-ml-py).
 - Forecasting runs which have `enable_dnn` set to `True` do not support test runs.
 - Forecasting runs do not support train/test split (`test_size`).
 - The on-demand model testing feature will not work for runs created with an SDK older than 1.27.
