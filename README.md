@@ -25,6 +25,7 @@ As the maintainer of this project, please make a few updates:
 - Forecasting runs which have `enable_dnn` set to `True` do not support test runs.
 - Forecasting runs do not support train/test split (`test_size`).
 - The on-demand model testing feature will not work for runs created with an SDK older than 1.27.
+    To use this feature, the run must have been created with SDK version >= 1.27.
 - `test_data`/`test_size` is not supported at the same time as `cv_split_column_names`
 - `test_data`/`test_size` is not supported at the same time as `cv_splits_indices`
 - Test runs are not supported for AutoML runs which have streaming enabled.
