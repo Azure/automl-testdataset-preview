@@ -118,6 +118,10 @@ does not require further processing to retrieve the outputs.
     is created (`workspaceblobstore`). This datastore is visible to all users with
     the same subscription. Do not use this feature if any of the information used for
     or created by the test run needs to remain private.
+
+    Workspaces and resource groups can be secured with "Access Control (IAM)".
+    See the "Access Control (IAM)" section of the respective resource in the Azure portal.
+
 - Local AutoML runs do not support test runs. To use this feature, please use remote runs.
 - ADB/Spark runs do not support test runs.
 - Pandas DataFrames are not supported as input test datasets.
