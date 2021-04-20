@@ -49,7 +49,7 @@ See the included notebooks for examples and further details.
    automl_config = AutoMLConfig(task = 'regression',
                                 ...
                                 # Specify train/test split
-                                train_data=training_data,
+                                training_data=training_data,
                                 test_size=0.2)
    ```
    To use a train/test split instead of providing test data directly, use the
