@@ -140,8 +140,8 @@ does not require further processing to retrieve the outputs.
     Supported input test dataset types: [Dataset](https://docs.microsoft.com/en-us/python/api/azureml-core/azureml.core.dataset.dataset?view=azure-ml-py).
 - Forecasting runs which have `enable_dnn` set to `True` do not support test runs.
 - Forecasting runs do not support train/test split (`test_size` parameter to `AutoMLConfig`).
-- The on-demand model testing feature will not work for runs created with an SDK older than 1.27.
-    To use this feature, the run must have been created with SDK version >= 1.27.
+- The on-demand model testing feature will not work for runs created with an SDK older than 1.29.
+    To use this feature, the run must have been created with SDK version >= 1.29.
 - `test_data`/`test_size` is not supported at the same time as `cv_split_column_names`
 - `test_data`/`test_size` is not supported at the same time as `cv_splits_indices`
 - Test runs are not supported for AutoML runs which only have the following models
