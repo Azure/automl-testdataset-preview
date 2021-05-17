@@ -34,7 +34,7 @@ Model testing is supported for the following task types:
 - An Azure subscription. If you don't have an Azure subscription, [create a free account](https://aka.ms/AMLFree) before you begin.
 - A valid Azure Machine Learning workspace. See [here](https://docs.microsoft.com/en-us/azure/machine-learning/concept-workspace)
   for more details and how to create one.
-- AzureML SDK version 1.27 or later for script and notebook environments.
+- AzureML SDK version 1.29 or later for script and notebook environments.
   See [here](https://docs.microsoft.com/en-us/python/api/overview/azure/ml/install?view=azure-ml-py) for SDK installation details.
 
 ## Getting Started
