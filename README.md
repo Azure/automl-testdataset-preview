@@ -179,14 +179,14 @@ Note: Work is in progress to easily download the predictions dataset file.
 ![Test Model Panel](screenshots/ModelTest_TestModelPanel.png)
 
 5. On successful creation of `model test run`, the details pages will be displayed with a success message. Click on the `Test Results` tab to see the progress of the run. Click on the link to the test run to open its details page. 
-![Test Model Panel](screenshots/ModelTest_OnDemand_TestResults_Queued.png)
+![ModelTest_OnDemand_TestResults_Queued](screenshots/ModelTest_OnDemand_TestResults_Queued.png)
 
 7. On the `model test run detail` page, after the run completes, click on the 'Output datasets' link to explore the predictions dataset.
-![Model Test Run Details](screenshots/ModelTest_OnDemand_TestRunDetails.png)
+![ModelTest_OnDemand_TestRunDetails](screenshots/ModelTest_OnDemand_TestRunDetails.png)
 
 8. On the `dataset details` page, click on `Explore` to preview the predictions csv.
 Note: Work is in progress to easily download the predictions dataset file.
-![Model Test Run Details](screenshots/ModelTest_OnDemand_Predictions.png)
+![ModelTest_OnDemand_Predictions](screenshots/ModelTest_OnDemand_Predictions.png)
 
 ## Limitations
 
