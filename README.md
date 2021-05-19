@@ -138,6 +138,8 @@ There are 2 ways to start a model test run via UI
 
 2. On the **[Optional] Validate** step -> Test dataset -> Select **Provide a test dataset** option.
 
+    ![Provide Test Dataset](screenshots/ModelTest_Options_TestDataset.png)
+
     Dataset options:
     - Select a test dataset from the dropdown.
     - Or create a new dataset by clicking `Create dataset` button.
@@ -145,8 +147,6 @@ There are 2 ways to start a model test run via UI
     Dataset schema:
     - The schema of the test dataset should match the training dataset (The Target column is optional).
     - The test dataset should not be the same as training dataset or the validation dataset.
-
-    ![Provide Test Dataset](screenshots/ModelTest_Options_TestDataset.png)
 
 3. If you prefer test dataset to be a split percentage of training dataset, in the `Test dataset` dropdown -> Select **Test split (choose a percentage of the training data)** option.
 ![Test Split Dataset](screenshots/ModelTest_Options_TestSplit.png)
