@@ -184,8 +184,7 @@ Note: Work is in progress to easily download the predictions dataset file.
 7. On the `model test run detail` page, after the run completes, click on the 'Output datasets' link to explore the predictions dataset.
 ![ModelTest_OnDemand_TestRunDetails](screenshots/ModelTest_OnDemand_TestRunDetails.png)
 
-8. On the `dataset details` page, click on `Explore` to preview the predictions csv.
-Note: Work is in progress to easily download the predictions dataset file.
+8. On the `dataset details` page, click on `Explore` to preview the predictions csv. Note: Work is in progress to easily download the predictions dataset file.
 ![ModelTest_OnDemand_Predictions](screenshots/ModelTest_OnDemand_Predictions.png)
 
 ## Limitations
