@@ -125,7 +125,7 @@ does not require further processing to retrieve the outputs.
 
 ## AutoML Model Testing via Workspace Portal UI 
 
-Prerequiste: Ensure your Azure subscription has private preview access to this feature. To get access please contact XYZ@microsoft.com
+Prerequisite: Ensure your Azure subscription has private preview access to this feature. To get access please contact XYZ@microsoft.com
 
 There are 2 ways to start a model test run via UI
 
