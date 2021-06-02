@@ -217,7 +217,7 @@ Note: Work is in progress to easily download the predictions dataset file.
 - `test_data`/`test_size` is not supported at the same time as `cv_splits_indices`
 - Test runs are not supported for AutoML runs which only have the following models
     in the `allowed_models` list:
-    [AveragedPerceptronClassifier, FastLinearRegressor, OnlineGradientDescentRegressor] (Streaming mode algorithms, not yet supported for testing).
+    [AveragedPerceptronClassifier, FastLinearRegressor, OnlineGradientDescentRegressor].
 - Model testing is not supported for image classification tasks.
 
 ## Contributing
