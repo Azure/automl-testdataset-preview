@@ -218,7 +218,8 @@ Note: Work is in progress to easily download the predictions dataset file.
     in the `allowed_models` list:
     [AveragedPerceptronClassifier, FastLinearRegressor, OnlineGradientDescentRegressor] (Streaming mode algorithms, not yet supported for testing).
 - Model testing is not supported for image classification tasks.
-- `enable_dnn=True` is not compatible with the model testing feature at this time.
+- `enable_dnn=True` is not compatible with the model testing feature at this time
+    with the exception of using DNN based text featurization in classification experiments.
 
 ## Contributing
 
