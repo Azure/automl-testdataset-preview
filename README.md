@@ -114,10 +114,16 @@ test_run_metrics = test_run.get_metrics()
 for name, value in test_run_metrics.items():
     print(f"{name}: {value}")
 
-# Get test predictions
+# Get test predictions as a Dataset
 test_run_details = test_run.get_details()
-test_run_predictions = Dataset.get_by_id(workspace, test_run_details['outputDatasets'][0]['identifier']['savedId'])
-test_run_predictions.to_pandas_dataframe().head()
+dataset_id = test_run_details['outputDatasets'][0]['identifier']['savedId']
+test_run_predictions = Dataset.get_by_id(workspace, dataset_id)
+predictions_df = test_run_predictions.to_pandas_dataframe()
+
+# Alternatively, the test predictions can
+# be retrieved via the run outputs.
+test_run.download_file("predictions/predictions.csv")
+predictions_df = pd.read_csv("predictions.csv")
 ```
 
 `ModelProxy` already returns the predictions and metrics and
