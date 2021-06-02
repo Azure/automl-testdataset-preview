@@ -208,7 +208,8 @@ Note: Work is in progress to easily download the predictions dataset file.
 - ADB/Spark runs do not support test runs.
 - Pandas DataFrames are not supported as input test datasets.
     Supported input test dataset types: [Dataset](https://docs.microsoft.com/en-us/python/api/azureml-core/azureml.core.dataset.dataset?view=azure-ml-py).
-- Forecasting runs which have `enable_dnn` set to `True` do not support test runs.
+- Model testing feature is disabled when forecasting DNN models are used (non-DNN based forecasting is supported).
+    However, the feature works with text DNNs, because AutoML uses text DNNs as a featurizer.
 - Forecasting runs do not support train/test split (`test_size` parameter to `AutoMLConfig`).
 - The on-demand model testing feature will not work for runs created with an SDK older than 1.29.
     To use this feature, the run must have been created with SDK version >= 1.29.
@@ -218,8 +219,6 @@ Note: Work is in progress to easily download the predictions dataset file.
     in the `allowed_models` list:
     [AveragedPerceptronClassifier, FastLinearRegressor, OnlineGradientDescentRegressor] (Streaming mode algorithms, not yet supported for testing).
 - Model testing is not supported for image classification tasks.
-- `enable_dnn=True` is not compatible with the model testing feature at this time
-    with the exception of using DNN based text featurization in classification experiments.
 
 ## Contributing
 
