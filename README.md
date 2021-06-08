@@ -170,6 +170,8 @@ There are 2 ways to start a model test run via UI
 Note: Work is in progress to easily download the predictions dataset file.
 ![Model Test Run Details](screenshots/ModelTest_OutputDataset_Explore.png)
 
+9. Alternatively the prediction file can be also viewed/downloaded from `outputs + logs` tab, expand `Outputs` to locate `predicted_true file`. 
+![ModelTest_OnDemand_Predictions](screenshots/ModelTest_OnDemand_Predictions.png)
 ### Start an on-demand model test run for a completed model.
 
 1. Browse to [https://ml.azure.com/](https://ml.azure.com/). On the left navigation click on `Automated ML` -> select an existing run to open the `run details` page.
@@ -191,6 +193,9 @@ Note: Work is in progress to easily download the predictions dataset file.
 ![ModelTest_OnDemand_TestRunDetails](screenshots/ModelTest_OnDemand_TestRunDetails.png)
 
 8. On the `dataset details` page, click on `Explore` to preview the predictions csv. Note: Work is in progress to easily download the predictions dataset file.
+![ModelTest_OnDemand_Predictions](screenshots/ModelTest_OnDemand_Predictions.png)
+
+9. Alternatively the prediction file can be also viewed/downloaded from `outputs + logs` tab, expand `Outputs` to locate `predicted_true file`. 
 ![ModelTest_OnDemand_Predictions](screenshots/ModelTest_OnDemand_Predictions.png)
 
 ## Limitations
