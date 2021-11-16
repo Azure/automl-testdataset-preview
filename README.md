@@ -1,9 +1,7 @@
-# Private Preview: AutoML Model Testing
+# Preview: AutoML Model Testing
 
-> Welcome to the PRIVATE PREVIEW of **Azure Machine Learning Automated ML Model Testing**.
+> Welcome to the PREVIEW of **Azure Machine Learning Automated ML Model Testing**.
 > The AutoML model testing feature provides support for automated model testing.
-> This is an early PREVIEW, still not announced and not supported publicly so
-> it's defined as PRIVATE from that point of view, although anyone can access to it.
 
 Automated Machine Learning, also referred to as Automated ML or AutoML, is
 the process of automating the time consuming, iterative tasks of machine
